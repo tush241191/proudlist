@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <g id="not_proud_sqr" transform="translate(-3954 -5587)">
+    <rect id="Rectangle_43" data-name="Rectangle 43" width="1000" height="1000" rx="25" transform="translate(3954 5587)" fill="#f05152"/>
+    <g id="not_proud" transform="translate(4104.5 5657.5)">
+      <path id="Path_188" data-name="Path 188" d="M350,17.5C205.62,17.5,87.5,135.62,87.5,280S205.62,542.5,350,542.5,612.5,424.38,612.5,280,494.38,17.5,350,17.5Zm0,490c-125.12,0-227.5-102.38-227.5-227.5S224.88,52.5,350,52.5,577.5,154.88,577.5,280,475.12,507.5,350,507.5Z" transform="translate(0 36)" fill="#fff"/>
+      <path id="Path_189" data-name="Path 189" d="M455,183.75a35,35,0,1,1-35-35,35,35,0,0,1,35,35" fill="#fff"/>
+      <path id="Path_190" data-name="Path 190" d="M315,183.75a35,35,0,1,1-35-35,35,35,0,0,1,35,35" fill="#fff"/>
+      <path id="Path_191" data-name="Path 191" d="M350,271.25c-34.125,0-61.25,35-61.25,78.75s27.125,78.75,61.25,78.75,61.25-35,61.25-78.75S384.125,271.25,350,271.25Zm0,122.5c-12.25,0-26.25-18.375-26.25-43.75s14-43.75,26.25-43.75,26.25,18.375,26.25,43.75S362.25,393.75,350,393.75Z" fill="#fff"/>
+    </g>
+    <text id="NO" transform="translate(4454 6472)" fill="#fff" font-size="160" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700"><tspan x="-121.52" y="0">NO</tspan></text>
+  </g>
+</svg>
