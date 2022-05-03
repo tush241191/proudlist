@@ -3,10 +3,11 @@ import '../pages/globals.css';
 
 const BREAKPOINTS_INT = {
   xs: 375,
-  sm: 600,
-  md: 900,
-  lg: 1200,
-  xl: 1536,
+  sm: 640,
+  md: 768,
+  lg: 1024,
+  xl: 1280,
+  '2xl': 1536,
 };
 
 const customViewports = Object.fromEntries(

@@ -1,18 +1,25 @@
 import Head from 'next/head';
 import { ReactNode } from 'react';
-import styles from './PrimaryLayout.module.css';
 
 export interface IPrimaryLayout {
   children?: ReactNode;
+  bgColor?: String;
 }
 
-const PrimaryLayout: React.FC<IPrimaryLayout> = ({ children }) => {
+const PrimaryLayout: React.FC<IPrimaryLayout> = ({
+  children,
+  bgColor = 'bg-white',
+}) => {
   return (
     <>
       <Head>
-        <title>Primary Layout Example</title>
+        <title>Proudlist</title>
       </Head>
-      <main className={styles.main}>{children}</main>
+      <div className={`${bgColor}`}>
+        <div className="relative overflow-hidden min-h-screen max-w-screen-2xl mx-auto">
+          {children}
+        </div>
+      </div>
     </>
   );
 };
