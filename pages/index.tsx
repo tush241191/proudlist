@@ -4,6 +4,10 @@ import PrimaryLayout from '../components/layouts/primary/PrimaryLayout';
 import { NextPageWithLayout } from './page';
 
 const Home: NextPageWithLayout = () => {
+  const handleSignInClick = (event: any) => {
+    event.preventDefault();
+  };
+
   return (
     <section>
       <div className="relative bg-black">
@@ -14,10 +18,11 @@ const Home: NextPageWithLayout = () => {
               <ImageTemplate src="/assets/main-new.png" />
             </div>
             <div className=" absolute flex justify-end p-2 md:p-4 top-0 w-full">
-              <PrimaryButton label="Sign up" size="sm" />
-              <button className="hidden bg-transparent hover:bg-gray-800 px-4 py-2 rounded-md text-sm md:text-base text-gray-300">
-                Sign in
-              </button>
+              <PrimaryButton
+                label="Sign up"
+                size="sm"
+                onClick={handleSignInClick}
+              />
             </div>
             <div className="pb-8 relative px-4 sm:px-6 lg:px-8">
               <ImageTemplate

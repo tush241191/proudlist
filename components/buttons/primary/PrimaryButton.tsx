@@ -42,7 +42,7 @@ const PrimaryButton: React.FC<IPrimaryButton> = (props: IPrimaryButton) => {
 
   return (
     <button
-      type="button"
+      type="submit"
       disabled={disabled || loading}
       className={`inline-flex items-center border shadow-sm font-medium focus:outline-none focus:ring-0 ${getSize(
         size
@@ -51,6 +51,7 @@ const PrimaryButton: React.FC<IPrimaryButton> = (props: IPrimaryButton) => {
           ? 'cursor-not-allowed disabled:opacity-50'
           : 'cursor-pointer'
       }`}
+      {...rest}
     >
       {label}
     </button>
