@@ -1,7 +1,7 @@
 import { ISecondaryButton } from './SecondaryButton';
 
 const base: ISecondaryButton = {
-  sampleTextProp: 'Secondary button',
+  textProp: 'Secondary button',
 };
 
 export const mockSecondaryButtonProps = {

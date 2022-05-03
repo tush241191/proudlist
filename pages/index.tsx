@@ -58,8 +58,8 @@ const Home: NextPageWithLayout = () => {
         <div className="py-8 lg:py-10 flex justify-center">
           <div className="inline-flex rounded-md shadow">
             <PrimaryButton
-              sampleTextProp="It is Free to try (no credit card needed)"
-              style="px-4 py-2 lg:px-8 lg:py-3 text-sm lg:text-base"
+              textProp="It is Free to try (no credit card needed)"
+              styleProp="px-4 py-2 lg:px-8 lg:py-3 text-sm lg:text-base"
             />
           </div>
         </div>

@@ -1,7 +1,7 @@
 import { IDefaultButton } from './DefaultButton';
 
 const base: IDefaultButton = {
-  sampleTextProp: 'Default button',
+  textProp: 'Default button',
 };
 
 export const mockDefaultButtonProps = {
