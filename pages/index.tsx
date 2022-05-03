@@ -1,5 +1,5 @@
-import Image from 'next/image';
 import PrimaryButton from '../components/buttons/primary/PrimaryButton';
+import ImageTemplate from '../components/image/ImageTemplate';
 import PrimaryLayout from '../components/layouts/primary/PrimaryLayout';
 import { NextPageWithLayout } from './page';
 
@@ -11,26 +11,19 @@ const Home: NextPageWithLayout = () => {
         <div className="max-w-screen-2xl mx-auto">
           <div className="pt-28 lg:pt-72 2xl:pt-80 relative shadow-xl sm:overflow-hidden">
             <div className="absolute inset-0">
-              <Image
-                src="/assets/main-new.png"
-                alt="Proudlist"
-                className="h-full w-full object-cover"
-                layout="fill"
-              />
+              <ImageTemplate src="/assets/main-new.png" />
             </div>
-            <div className="hidden absolute flex justify-end p-2 md:p-4 top-0 w-full">
-              <button className="bg-transparent hover:bg-gray-800 px-4 py-2 rounded-md text-sm md:text-base text-gray-300">
-                Sign up
-              </button>
+            <div className=" absolute flex justify-end p-2 md:p-4 top-0 w-full">
+              <PrimaryButton label="Sign up" size="sm" />
               <button className="hidden bg-transparent hover:bg-gray-800 px-4 py-2 rounded-md text-sm md:text-base text-gray-300">
                 Sign in
               </button>
             </div>
             <div className="pb-8 relative px-4 sm:px-6 lg:px-8">
-              <img
+              <ImageTemplate
                 src="/assets/logo-white.svg"
-                alt="Proudlist"
                 className="h-14 w-auto mx-auto sm:h-32"
+                isNextjsImage={false}
               />
               <h2 className="mt-4 lg:mt-10 text-center text-white font-bold text-lg lg:text-2xl">
                 <span className="text-blue-500">P</span>ROUD
@@ -49,7 +42,6 @@ const Home: NextPageWithLayout = () => {
           </div>
         </div>
       </div>
-
       <div className="bg-black text-center px-4 sm:px-6 lg:py-10 lg:px-8">
         <p className="lg:hidden max-w-lg mx-auto text-center text-lg lg:text-3xl text-white sm:max-w-2xl">
           Understand Your purpose, goals and actions while being proud of
@@ -58,8 +50,9 @@ const Home: NextPageWithLayout = () => {
         <div className="py-8 lg:py-10 flex justify-center">
           <div className="inline-flex rounded-md shadow">
             <PrimaryButton
-              textProp="It is Free to try (no credit card needed)"
-              styleProp="px-4 py-2 lg:px-8 lg:py-3 text-sm lg:text-base"
+              label="It is Free to try (no credit card needed)"
+              size="lg"
+              state="primary"
             />
           </div>
         </div>

@@ -1,20 +1,22 @@
 import { ComponentMeta, ComponentStory } from '@storybook/react';
-import Button, { IDefaultButton } from './DefaultButton';
-import { mockDefaultButtonProps } from './DefaultButton.mocks';
+import ImageTemplate, { IImageTemplate } from './ImageTemplate';
+import { mockImageTemplateProps } from './ImageTemplate.mocks';
 
 export default {
-  title: 'buttons/DefaultButton',
-  component: Button,
+  title: 'image/ImageTemplate',
+  component: ImageTemplate,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {},
-} as ComponentMeta<typeof Button>;
+} as ComponentMeta<typeof ImageTemplate>;
 
 // More on component templates: https://storybook.js.org/docs/react/writing-stories/introduction#using-args
-const Template: ComponentStory<typeof Button> = (args) => <Button {...args} />;
+const Template: ComponentStory<typeof ImageTemplate> = (args) => (
+  <ImageTemplate {...args} />
+);
 
 export const Base = Template.bind({});
 // More on args: https://storybook.js.org/docs/react/writing-stories/args
 
 Base.args = {
-  ...mockDefaultButtonProps.base,
-} as IDefaultButton;
+  ...mockImageTemplateProps.base,
+} as IImageTemplate;

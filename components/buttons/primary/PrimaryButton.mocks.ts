@@ -1,7 +1,9 @@
 import { IPrimaryButton } from './PrimaryButton';
 
 const base: IPrimaryButton = {
-  textProp: 'Primary button',
+  label: 'Default button',
+  state: 'primary',
+  size: 'md',
 };
 
 export const mockPrimaryButtonProps = {
