@@ -1,11 +1,11 @@
-import styles from './BaseTemplate.module.css';
-
 export interface IBaseTemplate {
   textProp: string;
 }
 
 const BaseTemplate: React.FC<IBaseTemplate> = ({ textProp }) => {
-  return <div className={styles.container}>{textProp}</div>;
+  return (
+    <div className="text-xl font-semibold bg-black text-white">{textProp}</div>
+  );
 };
 
 export default BaseTemplate;

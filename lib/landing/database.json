@@ -1,0 +1,115 @@
+[
+  {
+    "id": 1,
+    "title": "Have Your personal, easy-to-fill-in path to Your Goals",
+    "content": {
+      "data": [
+        "“A Harvard Business Study found that the 3% of graduates from their MBA who had their goals written down, ended up earning ten times as much as the other 97% put together, just ten years after graduation...”"
+      ],
+      "author": "- FORBES -"
+    },
+    "quote": {
+      "data": [
+        "“Reaching the goal is not success; success is moving toward the goal and experiencing growth.”"
+      ],
+      "author": "- BOB PROCTOR -"
+    },
+    "button": "Try for FREE",
+    "image": "/assets/1.jpg",
+    "position": "left",
+    "bgColor": "green"
+  },
+  {
+    "id": 2,
+    "title": "Understand Your WHYs",
+    "content": {
+      "data": [
+        "Why do you train, study, relate, work, collect, etc?",
+        "When do You allow Yourself to be happy?"
+      ],
+      "author": ""
+    },
+    "quote": {
+      "data": [],
+      "author": ""
+    },
+    "button": "Lets find out",
+    "image": "/assets/2.jpg",
+    "position": "right",
+    "bgColor": "green"
+  },
+  {
+    "id": 3,
+    "title": "Happiness through focus",
+    "content": {
+      "data": ["The purpose of our lives is to be happy"],
+      "author": "- DALAI LAMA -"
+    },
+    "quote": {
+      "data": [
+        "'1916 C. F. Haanel presented in his “The Master Key System” the theory, that to be happy all men need health (mental & physical), wealth, and love. You can focus on them and keep them in balance.'"
+      ],
+      "author": ""
+    },
+    "button": "I like happiness",
+    "image": "/assets/3.jpg",
+    "position": "left",
+    "bgColor": "yellow"
+  },
+  {
+    "id": 4,
+    "title": "Understand Your day-to-day actions.",
+    "content": {
+      "data": [
+        "Analyse Your actions to understand their meaning. Filter Your thoughts and actions"
+      ],
+      "author": ""
+    },
+    "quote": {
+      "data": [],
+      "author": ""
+    },
+    "button": "Try for FREE",
+    "image": "/assets/4.jpg",
+    "position": "right",
+    "bgColor": "yellow"
+  },
+  {
+    "id": 5,
+    "title": "Be Proud",
+    "content": {
+      "data": ["See Your life as a list of proud thoughts & actions"],
+      "author": ""
+    },
+    "quote": {
+      "data": [
+        "If You are proud of Your daily actions, then You have meaning in your day. Do at least 2 things every day that You are proud of, and You have a meaningful life. Proudlist keeps track of Your Proudness"
+      ],
+      "author": ""
+    },
+    "button": "I want to be proud",
+    "image": "/assets/5.jpg",
+    "position": "left",
+    "bgColor": "pink"
+  },
+  {
+    "id": 6,
+    "title": "Review Your progress, calibrate Your focus, and make new plans.",
+    "content": {
+      "data": [
+        "Examine Your last weeks actions.",
+        "You are closer to Your goals by the number of these actions already.",
+        "Check you`re on track and set the next milestones."
+      ],
+      "author": ""
+    },
+    "quote": {
+      "data": [],
+      "author": ""
+    },
+    "button": "Understand Yourself",
+    "image": "/assets/6.jpg",
+    "position": "right",
+    "bgColor": "pink"
+  }
+]
