@@ -3,7 +3,7 @@ import { IIconButton } from './IconButton';
 const base: IIconButton = {
   category: 'lock',
   state: 'primary',
-  loading: false,
+  disabled: false,
   iconSize: 'xs',
   inverted: false,
   className: '',
