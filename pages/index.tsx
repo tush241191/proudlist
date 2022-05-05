@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import PrimaryButton from '../components/buttons/primary/PrimaryButton';
 import ImageTemplate from '../components/image/ImageTemplate';
@@ -7,10 +8,6 @@ import database from '../lib/landing/database.json';
 import { NextPageWithLayout } from './page';
 
 const Home: NextPageWithLayout = () => {
-  const handleSignInClick = (event: any) => {
-    event.preventDefault();
-  };
-
   const [features, setFeatures] = useState<IFeatures[]>([]);
 
   useEffect(() => {
@@ -42,11 +39,11 @@ const Home: NextPageWithLayout = () => {
               <ImageTemplate src='/assets/main-new.png' />
             </div>
             <div className=' absolute flex justify-end p-2 md:p-4 top-0 w-full'>
-              <PrimaryButton
-                label='Sign up'
-                size='sm'
-                onClick={handleSignInClick}
-              />
+              <div className='w-20'>
+                <Link href={'/login'}>
+                  <PrimaryButton label='Login' size='sm' state='empty' />
+                </Link>
+              </div>
             </div>
             <div className='pb-8 relative px-4 sm:px-6 lg:px-8'>
               <ImageTemplate

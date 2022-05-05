@@ -65,7 +65,7 @@ const Features = (props: IFeatures) => {
                     </div>
                   )}
                 </>
-                <div className='mt-6'>
+                <div className='mt-6 w-48 sm:w-60 max-w-xs mx-auto'>
                   <PrimaryButton label={button} state='primary' size='lg' />
                 </div>
               </div>

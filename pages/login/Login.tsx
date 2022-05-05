@@ -1,3 +1,4 @@
+import LoginCard from '../../components/cards/login/LoginCard';
 import PrimaryLayout from '../../components/layouts/primary/PrimaryLayout';
 import { NextPageWithLayout } from '../page';
 
@@ -6,9 +7,7 @@ export interface ILogin {
 }
 
 const Login: NextPageWithLayout = () => {
-  return (
-    <div className='text-xl font-semibold bg-black text-white'>Login page</div>
-  );
+  return <LoginCard />;
 };
 
 export default Login;
