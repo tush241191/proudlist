@@ -2,10 +2,7 @@ export interface IFooter {}
 
 const Footer: React.FC<IFooter> = () => {
   return (
-    <footer
-      className='bg-white max-w-screen-2xl mx-auto'
-      aria-labelledby='footer-heading'
-    >
+    <footer className='bg-white w-full' aria-labelledby='footer-heading'>
       <h2 id='footer-heading' className='sr-only'>
         Footer
       </h2>

@@ -42,7 +42,7 @@ const PrimaryButton: React.FC<IPrimaryButton> = (props: IPrimaryButton) => {
 
   return (
     <button
-      type="submit"
+      type='submit'
       disabled={disabled || loading}
       className={`inline-flex items-center border shadow-sm font-medium focus:outline-none focus:ring-0 ${getSize(
         size

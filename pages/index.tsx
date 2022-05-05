@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import PrimaryButton from '../components/buttons/primary/PrimaryButton';
 import ImageTemplate from '../components/image/ImageTemplate';
-import Footer from '../components/layouts/footer/Footer';
 import PrimaryLayout from '../components/layouts/primary/PrimaryLayout';
 import Features, { IFeatures } from '../components/utility/features/Features';
 import database from '../lib/landing/database.json';
@@ -109,10 +108,5 @@ const Home: NextPageWithLayout = () => {
 export default Home;
 
 Home.getLayout = (page) => {
-  return (
-    <PrimaryLayout bgColor={'bg-black'}>
-      {page}
-      <Footer />
-    </PrimaryLayout>
-  );
+  return <PrimaryLayout bgColor={'bg-black'}>{page}</PrimaryLayout>;
 };
