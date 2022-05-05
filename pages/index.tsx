@@ -13,11 +13,8 @@ const Home: NextPageWithLayout = () => {
   };
 
   const [features, setFeatures] = useState<IFeatures[]>([]);
-  const [count, setCount] = useState(0);
 
   useEffect(() => {
-    console.log('database:', count);
-    setCount(count + 1);
     if (features.length == 0) {
       database.map((item) => {
         const obj: IFeatures = {
@@ -34,11 +31,7 @@ const Home: NextPageWithLayout = () => {
         setFeatures((prevState) => [...prevState, obj]);
       });
     }
-  }, []);
-
-  useEffect(() => {
-    console.log('features: ', features);
-  }, [features]);
+  });
 
   return (
     <section>
